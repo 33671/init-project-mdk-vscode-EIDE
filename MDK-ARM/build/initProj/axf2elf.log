@@ -1,0 +1,6 @@
+arm-none-eabi-objcopy --update-section ER_IROM1="c:\Users\zhang\Documents\initProj\MDK-ARM\build\initProj\MDK-ARM.bin" "c:\Users\zhang\Documents\initProj\MDK-ARM\build\initProj\MDK-ARM.axf" "c:\Users\zhang\Documents\initProj\MDK-ARM\build\initProj\MDK-ARM.elf"
+
+arm-none-eabi-objcopy: c:\Users\zhang\Documents\initProj\MDK-ARM\build\initProj\MDK-ARM.elf: warning: allocated section `RW_IRAM1' not in segment
+
+WARNING: The runtime version supported by this application is unavailable.
+Using default runtime: v4.0.30319
